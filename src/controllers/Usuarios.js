@@ -2,7 +2,7 @@ import UsuarioModel from "../models/UsuarioModel.js"
 import ValidacoesService from "../services/ValidacoesService.js"
 
 class Usuarios {
-    static rotas(app){  // nao quero tranformsar minha classe em objeto entao uso static para isso
+    static rotas(app){  // nao quero transformar minha classe em objeto entao uso static para isso
         app.get("/usuarios", (req, res) =>{
             const nome = "Juliana"
             if(ValidacoesService.validaNome(nome)){
