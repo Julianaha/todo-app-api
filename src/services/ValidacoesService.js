@@ -2,9 +2,6 @@ class ValidacoesService{
     static validaNome(nome){
         return nome.length >= 3
     }
-    static validaNome(nome){
-        return true
-    }
     static validaEmail(email){
         return true
     }
