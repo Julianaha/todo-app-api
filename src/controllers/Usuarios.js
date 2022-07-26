@@ -1,4 +1,4 @@
-import { Database } from "../infra/Database.js";
+import Database from "../infra/Database.js";
 import UsuarioModel from "../models/UsuarioModel.js"
 import ValidacoesService from "../services/ValidacoesService.js"
 import DatabaseMetodos from "../utils/DatabaseMetodos.js";
