@@ -39,13 +39,4 @@ export default class ValidacoesService{
         return this.validaNome(nome) && this.validaTelefone(telefone) && this.validaEmail(email)
     }
 
-    /**
-     * 
-     * @param {number} index 
-     * @param {Array<object>} database 
-     * @returns Boolean
-     */
-    static validaIndex(index, database){
-        return index <= database.length
-    }
 }
