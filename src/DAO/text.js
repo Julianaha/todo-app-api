@@ -1,0 +1,1 @@
+CloseEvent.log()
